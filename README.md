@@ -18,7 +18,8 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 - Network Security Group (NSG)
 - Virtual Machines (2 windows, 1 linux)
 - Virtual Network (VNet)
-
+  
+Prior , All the resources that were deployed was configured to be exposed to the internet in order to attract bad actors. I configured the Network Security Group on both Virtual Machines and created an inbound rule with low priority in order for the traffic to be evaluate first.
 
 
 <h3>Conclusion</h3>
