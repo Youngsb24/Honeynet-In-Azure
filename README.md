@@ -18,3 +18,8 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 - Network Security Group (NSG)
 - Virtual Machines (2 windows, 1 linux)
 - Virtual Network (VNet)
+
+
+
+<h3>Conclusion</h3>
+Also If the network resources were heavily used by more users, it’s likely that more security events and alerts would have been triggered within the 24 hours after the security controls were applied.
