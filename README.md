@@ -27,14 +27,14 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 
 
 <h3> Security Controls </h3>
-**"Before"** applying any security measures, all the resources I deployed were intentionally exposed to the internet to attract bad actors. Both Virtual Machines had their Network Security Groups (NSGs) configured with an inbound rule that allowed all incoming traffic, meaning there were no restrictions in place. This made the VMs fully accessible to anyone on the internet, creating an easy target for brute-force attacks or other types of intrusion attempts. Additionally, the resources had public endpoints, leaving them completely open and vulnerable to malicious activity. The idea behind this was to create an environment where attackers could freely attempt to exploit the resources and attempt attacks.
 
-**"AFTER"** phase, I implemented security controls to protect the environment. The Network Security Groups on the VMs were adjusted to block all traffic except from my admin workstation, restricting access to only trusted sources. Furthermore, the built-in firewalls for each VM and other resources were turned on, adding an extra layer of defense. Private endpoints were also configured to ensure that sensitive resources were no longer accessible via public IPs, making the environment more secure and harder to target. By comparing the "before" and "after" metrics, I could clearly see the difference in security posture and how effective these controls were in reducing exposure to potential attacks.
+**Before** applying any security measures, all the resources I deployed were intentionally exposed to the internet to attract bad actors. Both Virtual Machines had their Network Security Groups (NSGs) configured with an inbound rule that allowed all incoming traffic, meaning there were no restrictions in place. This made the VMs fully accessible to anyone on the internet, creating an easy target for brute-force attacks or other types of intrusion attempts. Additionally, the resources had public endpoints, leaving them completely open and vulnerable to malicious activity. The idea behind this was to create an environment where attackers could freely attempt to exploit the resources and attempt attacks.
 
+**AFTER** phase, I implemented security controls to protect the environment. The Network Security Groups on the VMs were adjusted to block all traffic except from my admin workstation, restricting access to only trusted sources. Furthermore, the built-in firewalls for each VM and other resources were turned on, adding an extra layer of defense.By comparing the "before" and "after" metrics, I could clearly see the difference in security posture and how effective these controls were in reducing exposure to potential attacks.
 
-
+<br>
+</br>
 <h4>Conclusion</h4>
 This project involved setting up a small honeynet in Microsoft Azure and connecting log sources to a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and incidents from the logs. Metrics were recorded both before and after applying security controls. The results showed a significant drop in security events and incidents after implementing the controls, highlighting their effectiveness.
-
-<h5></h5>
+<br></br>
 Also If the network resources were heavily used by more users, it’s likely that more security events and alerts would have been triggered within the 24 hours after the security controls were applied.
