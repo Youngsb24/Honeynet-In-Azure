@@ -18,7 +18,7 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 <br> **- Log Analytics Workspace** </br>
   Serves as a centralized repository to collect, analyze, and query logs from different resources
 <br> **- Microsoft Sentinel** </br>
-   Is a SIEM tool that uses data from "Log Analytics Workspace" to creatw dashboards, generating attack maps, and automating responses to threats 
+   Is a SIEM tool that uses data from "Log Analytics Workspace" to create dashboards, generating attack maps, and automating responses to threats 
 <br> **- Network Security Group (NSG)** </br>
   Used in this lab as virtual firewalls for Azure resources, controlling inbound and outbound traffic to Virtual Machines.
 <br> **- Virtual Machines (2 windows, 1 linux)** </br>
