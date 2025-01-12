@@ -22,6 +22,7 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 <br> **- Network Security Group (NSG)** </br>
   Used in this lab as virtual firewalls for Azure resources, controlling inbound and outbound traffic to Virtual Machines.
 <br> **- Virtual Machines (2 windows, 1 linux)** </br>
+  Software-based emulation of a physical computer, allowing users to run multiple operating systems and applications on a single hardware system
 <br> **- Virtual Network (VNet)** </br>
   Used in this lab to provides a secure and isolated environment for Azure resources to connect, communicate and provide segmentation.
 
