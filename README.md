@@ -44,7 +44,9 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 **AFTER** phase, I implemented security controls to protect the environment. The Network Security Groups on the VMs were adjusted to block all traffic except from my admin workstation, restricting access to only trusted sources. Furthermore, the built-in firewalls for each VM and other resources were turned on, adding an extra layer of defense.By comparing the "before" and "after" metrics after 48-72hrs period, I could clearly see the difference in security posture and how effective these controls were in reducing exposure to potential attacks.
 
 <br>
+<img src="https://imgur.com/naC2Lsc.png" [height="60%" width="80%" alt="Disk Sanitization Steps"/>
 </br>
+
 <h4>Conclusion</h4>
 This project involved setting up a small honeynet in Microsoft Azure and connecting log sources to a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and incidents from the logs. Metrics were recorded both before and after applying security controls. The results showed a significant drop in security events and incidents after implementing the controls, highlighting their effectiveness.
 <br></br>
