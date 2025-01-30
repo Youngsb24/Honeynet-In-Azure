@@ -32,6 +32,9 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 **BEFORE** applying any security measures, all the resources I deployed were intentionally exposed to the internet to attract bad actors. Both Virtual Machines had their Network Security Groups (NSGs) configured with an inbound rule that allowed all incoming traffic, meaning there were no restrictions in place. This made the VMs fully accessible to anyone on the internet, creating an easy target for brute-force attacks or other types of intrusion attempts. Additionally, the resources had public endpoints, leaving them completely open and vulnerable to malicious activity for 48hrs. The idea behind this was to create an environment where attackers could freely attempt to exploit the resources and attempt attacks.
 
 <br>
+<img src=https://imgur.com/FTsEvqG.png" [height="60%" width="80%" alt="Disk Sanitization Steps"/>
+</br>
+<br>
 <img src=https://imgur.com/PP97Zu5.png"  [height="60%" width="80%" alt="Disk Sanitization Steps"/>
 </br>
 <br>
