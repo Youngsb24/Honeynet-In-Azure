@@ -51,3 +51,8 @@ In this project, I created a mini honeynet in Azure by deploying Windows and Lin
 This project involved setting up a small honeynet in Microsoft Azure and connecting log sources to a Log Analytics workspace. Microsoft Sentinel was used to generate alerts and incidents from the logs. Metrics were recorded both before and after applying security controls. The results showed a significant drop in security events and incidents after implementing the controls, highlighting their effectiveness.
 <br></br>
 Also If the network resources were heavily used by more users, it’s likely that more security events and alerts would have been triggered within the 48 hours after the security controls were applied.
+
+
+
+<h1 align="center"> Hardening/Security Controls</h1>
+<br align="center"> https://github.com/Youngsb24/NIST-800-53</br>
